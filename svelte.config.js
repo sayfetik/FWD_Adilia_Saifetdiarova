@@ -1,18 +1,16 @@
-// svelte.config.js
 import adapter from '@sveltejs/adapter-static';
 
-export default {
-  kit: {
-    adapter: adapter({
-      // default options are shown
-      pages: 'build',
-      assets: 'build',
-      fallback: null,
-      precompress: false,
-      strict: true
-    }),
-    prerender: {
-      default: true
+const config = {
+    kit: {
+        adapter: adapter({
+            // Включите 'fallback' если используете SPA
+            fallback: 'index.html'
+        }),
+        paths: {
+            // Укажите ваш базовый путь, например "/FWD_Adilia_Saifetdiarova"
+            base: process.env.NODE_ENV === 'production' ? '/FWD_Adilia_Saifetdiarova' : '',
+        }
     }
-  }
 };
+
+export default config;
