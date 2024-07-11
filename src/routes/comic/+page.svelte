@@ -21,7 +21,7 @@
 <svelte:head>
 	<title>Portfolio</title>
 	<meta name="comic" content="Comic" />
-	<meta name="description" content="Portfolio of Adilia Saifetdiarova - comic, title, data, picture"
+	<meta name="description" content="Funny comic"
 	/>
 	<link rel="icon" href="/comic.png" />
 </svelte:head>
