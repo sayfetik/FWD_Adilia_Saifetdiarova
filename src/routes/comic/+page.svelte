@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-	<title>Portfolio</title>
+	<title>Comic</title>
 	<meta name="comic" content="Comic" />
 	<meta name="description" content="Funny comic"
 	/>
