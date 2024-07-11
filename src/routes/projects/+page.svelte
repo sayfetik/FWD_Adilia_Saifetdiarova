@@ -1,3 +1,10 @@
+<svelte:head>
+	<title>Projects</title>
+	<meta name="projects" content="Web sites, design projects" />
+	<meta name="description" content="Projects of Adilia Saifetdiarova" />
+	<link rel="icon" href="/projects.png" />
+</svelte:head>
+
 <div>
 	<p id="projects">Projects</p>
 	<div id="portfolio">

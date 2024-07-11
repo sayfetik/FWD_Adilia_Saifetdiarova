@@ -1,5 +1,12 @@
-<script>
-</script>
+<svelte:head>
+	<title>About me</title>
+	<meta name="about" content="Adilia Saifetdiarova" />
+	<meta
+		name="description"
+		content="About Adilia Saifetdiarova - Designer, front-end developer, C++ developer"
+	/>
+	<link rel="icon" href="/about.png" />
+</svelte:head>
 
 <div id="about">
 	<p class="headline">About</p>
